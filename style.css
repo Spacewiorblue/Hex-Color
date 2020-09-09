@@ -1,0 +1,31 @@
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.container button {
+    border: 2px solid lightcoral;
+    border-radius: 8px;
+    width: 250px;
+    height: 30px;
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+    background: black;
+    color: lightcoral;
+    cursor: pointer;
+}
+
+.container button:hover {
+    border: 3px solid lightcoral;
+}
+
+.text {
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+}
